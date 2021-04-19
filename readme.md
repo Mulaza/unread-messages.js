@@ -1,20 +1,21 @@
 
 # Unread-Messages.js 
 
-* [About]()
-* [Install]()
-* [Tutorial]()
-* [API]()
+* [About](#about)
+* [Install](#install)
+* [Tutorial](#tutorial)
+* [API](#api)
 
 ## About
 Unread-Messages.js is a  lightweight libraty that lets a user add floating number notifications to any object.
 
 ## Install
-```bash
+```text
 npm install ****
 ```
 
 ## Tutorial
+Include the main css file a and javascript file.
 To initiate the, library two things are required, first a class of `notification-container` and the `val` data attribute.
 ```html
   <div class="notification-container" data-val="5"></div>
@@ -27,7 +28,7 @@ In addition to the regual `val` data atribute there are other ones that can be u
 ### Position
 
 ```html
-  <div class="notification-container" data-val="5" data-pos="top-left">
+  <div class="notification-container" data-val="5" data-pos="top-left"></div>
 ```
 
 #### Addition positions 
@@ -42,8 +43,6 @@ In addition to the regual `val` data atribute there are other ones that can be u
 
 ### Color
 ``` html
-  <div class="notification-container" data-val="5" data-color="green">
-        <div class="item"></div>
-</div>
+  <div class="notification-container" data-val="5" data-color="green"></div>
 ```
 Any color css-supoorted color name works aswell as RGB values.
