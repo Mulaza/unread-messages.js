@@ -1,0 +1,79 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-color: whitesmoke;
+}
+
+
+.item{
+    background-color: white;
+    height: 180px;
+    width: 130px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 10px -3px rgba(36, 36, 36, 0.349);
+
+}
+
+.material-icons{
+    font-size: 80px !important;
+}
+
+/*----   ----*/
+
+.notification-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+    margin: 9px;
+}
+
+
+
+.notification-circle{
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 47, 47);
+     color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 999px;
+    min-width: 20px;
+    height: 20px;
+    padding: 6px;
+    position: absolute;
+
+    z-index: 1;
+    
+    animation-name: pop;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+
+.notification-circle::selection{
+    background: none;
+    
+}
+
+
+
+
+
+@keyframes pop {
+    from{
+        transform: scale(0.4);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
