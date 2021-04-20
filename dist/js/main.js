@@ -66,10 +66,9 @@
         }
 
 
-
-
         if (item.getAttribute('data-val') == "") {
-            circ.style.display = 'none';
+            item.setAttribute('data-val', '0');
+            circ.innerHTML = item.getAttribute('data-val');
         }
 
 
