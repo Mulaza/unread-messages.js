@@ -1,0 +1,19 @@
+{
+  "name": "unreadmessages",
+  "version": "1.0.0",
+  "description": "Unread-Messages.js is a lightweight libraty that lets a user add floating number notifications to any object.",
+  "main": "./dist/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mulaza/unread-messages-js.git"
+  },
+  "author": "Mulaza Jacinto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mulaza/unread-messages-js/issues"
+  },
+  "homepage": "https://github.com/Mulaza/unread-messages-js#readme"
+}

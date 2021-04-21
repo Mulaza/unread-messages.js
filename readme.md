@@ -10,11 +10,23 @@
 * [API](#api)
 
 ## About
-Unread-Messages.js is a  lightweight libraty that lets a user add floating number notifications to any object.
+Unread-Messages.js is a  lightweight library that lets a user add floating number notifications to any object.
 
 ## Install
+### NPM
+To install this package with NPM run the command below and link the needed javascript and css into your html file.
 ```text
-npm install *****
+npm i unreadmessages --save
+```
+
+### Direct Download
+To use this pakage you need to link the needed javascript and css into your html file.
+```html
+    <link rel="stylesheet" href="****/dist/css/style.css">
+```
+
+```html
+  <script src="****/dist/js/main.js"></script>
 ```
 
 ## Tutorial
