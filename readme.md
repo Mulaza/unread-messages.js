@@ -27,6 +27,9 @@ To use this pakage you need to link the needed javascript and css into your html
 ## Tutorial
 Include the main css file a and javascript file.
 To initiate the, library two things are required, first a class of `notification-container` needs to be added to a wraper element and the `val` data attribute needs to be defind inside of that element and you're done. If the data attribute is left empty it the displayed value will default to 0.
+
+![127 0 0 1_5500_](https://user-images.githubusercontent.com/60890281/115801365-2492d780-a40f-11eb-8a53-87385d4a0e2d.png)
+
 ```html
   <div class="notification-container" data-val="">
       <div> Item of your chosing</div>
