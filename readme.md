@@ -17,11 +17,11 @@ npm i unreadmessages --save
 ### Direct Download
 To use this pakage you need to link the needed javascript and css into your html file.
 ```html
-    <link rel="stylesheet" href="****/dist/css/style.css">
+  <link rel="stylesheet" href="/dist/css/style.css">
 ```
 
 ```html
-  <script src="****/dist/js/main.js"></script>
+  <script src="/dist/js/main.js"></script>
 ```
 
 ## Tutorial
