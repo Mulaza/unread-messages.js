@@ -3,6 +3,7 @@
 
 
 .notification-container{
+    cursor: pointer;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +34,14 @@
 }
 
 
+.circle-shrink{
+    animation-name: shrink;
+    animation-duration: 0.5s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-fill-mode: forwards;
+}
+
+
 .notification-circle::selection{
     background: none;   
 }
@@ -47,3 +56,11 @@
     }
 }
 
+@keyframes shrink {
+    from{
+    }
+    to{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
