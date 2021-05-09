@@ -5,6 +5,7 @@
         let circ = document.createElement('div');
         circ.classList.add("notification-circle");
 
+        let value = item.getAttribute('data-val');
         let position = item.getAttribute('data-pos');
         let color = item.getAttribute('data-color');
         let click_state = item.getAttribute('data-select-hide');
@@ -46,7 +47,6 @@
                 circ.style.right = "-10px"
                 break;
         }
-
         if (!['top', 'top-right', 'top-left', 'bottom', 'bottom-right', 'bottom-left', null].includes(position)) {
             console.error('Unsupported position ', position);
         }
@@ -60,21 +60,14 @@
 
 
         // Data
-        if (item.getAttribute('data-val') >= 1000 && item.getAttribute('data-val') < 100000) {
-            circ.innerHTML = `${(item.getAttribute('data-val') / 1000).toFixed(2)}K`;
-        } else if (item.getAttribute('data-val') >= 100000) {
-            circ.innerHTML = `${(item.getAttribute('data-val') / 1000000).toFixed(2)}M`;
+        if (value >= 1000 && value < 100000) {
+            circ.innerHTML = `${(value / 1000).toFixed(2)}K`;
+        } else if (value >= 100000) {
+            circ.innerHTML = `${(value / 1000000).toFixed(2)}M`;
         }
         else {
-            circ.innerHTML = item.getAttribute('data-val'); // check if is a number
+            circ.innerHTML = value; // check if is a number
         }
-
-
-        // // Max Value displayed
-        // if (item.getAttribute('data-max-val') != null) {
-        //     let MAX_VALUE = parseInt(item.getAttribute('data-max-val'));
-        //     console.log(parseInt(item.getAttribute('data-max-val')), 'was defined');
-        // }
 
 
         // Touch Listener 
@@ -86,6 +79,7 @@
             item.addEventListener('click', shrink);
         } else if (click_state == 'false' || click_state == 'False') {
             // No need to add the event listener
+            item.style.cursor = "default"
         }
 
         if (!['true', 'false', 'True', 'False', null].includes(click_state)) {
@@ -93,22 +87,14 @@
         }
 
 
-
-
         // Default number value
-        if (item.getAttribute('data-val') == "") {
-            item.setAttribute('data-val', '0');
-            circ.innerHTML = item.getAttribute('data-val');
+        if (value == "" || value < 0) {
+            value = '0';
+            circ.innerHTML = value;
         }
 
 
-
-
-
-
-
-
-
+        // 
         item.appendChild(circ);
 
     })

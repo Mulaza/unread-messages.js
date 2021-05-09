@@ -63,6 +63,16 @@ The position of the badge can be changed using the `data-pos` data attribute. If
 * `bottom-left`
 
 
+#### Hide After Click
+You can decide how you want the badge to persist after mouse clicks by using the `data-select-hide` data attribute by default it is set to true but it can optionally explicitly set `data-select-hide="false"`. This data attribute can also be set to `false` or `False` if you want the badge to persist after mouse clicks.
+
+```html
+<div class="notification-container" data-val="5" data-select-hide="false">
+      <div> Item of your choosing</div>
+  </div>
+```
+
+
 ### Color
 You can also change the colors of the number tags by simply adding a `data-val` data attribute to your wrapper.
 Any color css-supported color name works as well as RGB values. If this attribute is not defined the badge will default to `red`.

@@ -19,12 +19,13 @@
     align-items: center;
     background-color: rgb(255, 47, 47);
      color: white;
+     font-size: 85%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 999px;
-    min-width: 20px;
-    height: 20px;
-    padding: 6px;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 5px;
     position: absolute;
     z-index: 1;
     animation-name: pop;
