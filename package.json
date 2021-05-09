@@ -1,6 +1,6 @@
 {
   "name": "unreadmessages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unread-Messages.js is a lightweight libraty that lets a user add floating number notifications to any object.",
   "main": "./dist/js/main.js",
   "scripts": {
