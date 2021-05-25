@@ -38,7 +38,11 @@ To initiate the, library two things are required, first a class of `notification
   </div>
 ```
 
-![1](https://user-images.githubusercontent.com/60890281/115802419-6b81cc80-a411-11eb-9af6-45180bf42e49.png)
+<p align="center">
+
+  <img width="410"  src="https://user-images.githubusercontent.com/60890281/115802419-6b81cc80-a411-11eb-9af6-45180bf42e49.png" alt="Material Bread logo">
+
+</p>
 
 
 To fit the values with a reasonable size any value above 999 is dispalyed in a short-hand form. The displayed numbers shorthand follows the following convention
@@ -56,7 +60,13 @@ The position of the badge can be changed using the `data-pos` data attribute. If
       <div> Item of your choosing</div>
   </div>
 ```
-![2](https://user-images.githubusercontent.com/60890281/115803552-b4d31b80-a413-11eb-8641-e5cf30763892.png)
+
+<p align="center">
+
+  <img width="410" src="https://user-images.githubusercontent.com/60890281/115803552-b4d31b80-a413-11eb-8641-e5cf30763892.png" alt="Material Bread logo">
+
+</p>
+
 
 #### Supported Positions 
 
@@ -91,6 +101,11 @@ Any color css-supported color name works as well as RGB values. If this attribut
     <div> Item of your choosing</div>
   </div>
 ```
-![3](https://user-images.githubusercontent.com/60890281/115803590-c87e8200-a413-11eb-8342-856ec781a9b2.png)
+<p align="center">
+
+  <img width="410" src="https://user-images.githubusercontent.com/60890281/115803590-c87e8200-a413-11eb-8342-856ec781a9b2.png" alt="Material Bread logo">
+
+</p>
+
 
 
