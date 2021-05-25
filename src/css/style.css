@@ -1,7 +1,4 @@
 
-
-
-
 .notification-container{
     cursor: pointer;
     display: inline-flex;
@@ -11,21 +8,24 @@
     margin: 9px;
 }
 
-
 .notification-circle{
     cursor: default;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 47, 47);
-     color: white;
-     font-size: 85%;
+    background-color: #fd3995;
+    color: white;
+
+    box-shadow: white 0px 0px 0px 2px;
+
+
+    font-size: 85%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 999px;
-    min-width: 15px;
-    min-height: 15px;
-    padding: 5px;
+    min-width: 20px;
+    min-height: 10px;
+    padding: 3px 5px;
     position: absolute;
     z-index: 1;
     animation-name: pop;
@@ -34,7 +34,6 @@
     animation-fill-mode: forwards;
 }
 
-
 .circle-shrink{
     animation-name: shrink;
     animation-duration: 0.5s;
@@ -42,10 +41,12 @@
     animation-fill-mode: forwards;
 }
 
-
 .notification-circle::selection{
     background: none;   
 }
+
+
+
 
 
 @keyframes pop {
