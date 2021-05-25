@@ -5,10 +5,13 @@
 
 
 ## About
-Unread-Messages.js is a  lightweight library that lets a user add floating number notifications to any object.
+Unread-Messages.js is a lightweight library that lets a user add mobile-like notification counter badge to any object with just one wrapper.
 
-## Install
+## Install 
+
 ### NPM
+![npm](https://img.shields.io/npm/v/unreadmessages?style=flat-square)
+
 To install this package with NPM run the command below and link the needed javascript and css into your html file.
 ```text
 npm i unreadmessages --save
@@ -17,11 +20,12 @@ npm i unreadmessages --save
 ### Direct Download
 To use this package you need to link the needed javascript and css into your html file.
 ```html
-  <link rel="stylesheet" href="/dist/css/style.css">
+  <link rel="stylesheet" href="/src/css/style.css">
 ```
 
+Because the library looks over the the page content for specific classes, place the script tag at the bottom of your HTML file or add the `defer` keyword to the tag, so the script will load after the HTML content.
 ```html
-  <script src="/dist/js/main.js"></script>
+  <script src="/src/js/main.js"></script>
 ```
 
 ## Tutorial
@@ -55,15 +59,20 @@ The position of the badge can be changed using the `data-pos` data attribute. If
 ![2](https://user-images.githubusercontent.com/60890281/115803552-b4d31b80-a413-11eb-8641-e5cf30763892.png)
 
 #### Supported Positions 
-* `top`
-* `top-right`
-* `top-left`
-* `bottom`
-* `bottom-right`
-* `bottom-left`
 
 
-#### Hide After Click
+| Position      | Tags          | 
+| ------------- |:-------------|
+| Top           | `top`         |
+| Top Right     | `top-right`   |
+| Top Left      | `top-left`    |
+| Bottom        | `bottom`      |
+| Bottom Right  | `bottom-right`|
+| Bottom Left   | `bottom-left` |
+
+
+
+### Hide After Click
 You can decide how you want the badge to persist after mouse clicks by using the `data-select-hide` data attribute by default it is set to true but it can optionally explicitly set `data-select-hide="false"`. This data attribute can also be set to `false` or `False` if you want the badge to persist after mouse clicks.
 
 ```html
@@ -83,3 +92,5 @@ Any color css-supported color name works as well as RGB values. If this attribut
   </div>
 ```
 ![3](https://user-images.githubusercontent.com/60890281/115803590-c87e8200-a413-11eb-8342-856ec781a9b2.png)
+
+
