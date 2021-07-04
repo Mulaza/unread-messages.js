@@ -5,7 +5,7 @@
 
 
 ## About
-Unread-Messages.js is a lightweight library that lets a user add mobile-like notification counter badge to any object with just one wrapper.
+...2MUnread-Messages.js is a lightweight library that lets a user add mobile-like notification counter badge to any object with just one wrapper.
 
 ## Install 
 
