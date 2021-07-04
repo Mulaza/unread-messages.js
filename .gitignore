@@ -1,5 +1,7 @@
-/dist/iconfont
-/dist/index.html
-fontawesome-free
-index.html
+/test
+/dist
+/node_modules
 todo.txt
+gulpfile.js
+
+

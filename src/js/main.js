@@ -10,43 +10,49 @@
         let color = item.getAttribute('data-color');
         let click_state = item.getAttribute('data-select-hide');
 
+        const offsetValue = "-10px";
 
         // Position
         switch (position) {
             case "top":
-                circ.style.top = "-10px";
+                circ.style.top = offsetValue;
                 break;
 
             case "top-right":
-                circ.style.top = "-10px";
-                circ.style.right = "-10px";
+                circ.style.top = offsetValue;
+                circ.style.right = offsetValue;
                 break;
 
             case "top-left":
-                circ.style.top = "-10px";
-                circ.style.left = "-10px";
+                circ.style.top = offsetValue;
+                circ.style.left = offsetValue;
                 break;
 
             case "bottom":
-                circ.style.bottom = "-10px";
+                circ.style.bottom = offsetValue;
                 break;
 
             case "bottom-right":
-                circ.style.bottom = "-10px";
-                circ.style.right = "-10px";
+                circ.style.bottom = offsetValue;
+                circ.style.right = offsetValue;
                 break;
 
             case "bottom-left":
-                circ.style.bottom = "-10px"
-                circ.style.left = "-10px"
+                circ.style.bottom = offsetValue;
+                circ.style.left = offsetValue;
                 break;
 
 
             default:
-                circ.style.top = "-10px";
-                circ.style.right = "-10px"
+                circ.style.top = offsetValue;
+                circ.style.right = offsetValue;
                 break;
         }
+
+
+
+
+
         if (!['top', 'top-right', 'top-left', 'bottom', 'bottom-right', 'bottom-left', null].includes(position)) {
             console.error('Unsupported position ', position);
         }
