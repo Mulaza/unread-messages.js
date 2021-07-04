@@ -40,7 +40,7 @@ To initiate the, library two things are required, first a class of `notification
 
 <p align="center">
 
-  <img height="100"  src="https://user-images.githubusercontent.com/60890281/124374105-fd883a00-dcca-11eb-8963-0738d6d08e8b.png" alt="Material Bread logo">
+  <img height="90"  src="https://user-images.githubusercontent.com/60890281/124374105-fd883a00-dcca-11eb-8963-0738d6d08e8b.png" alt="Material Bread logo">
 
 </p>
 
@@ -63,7 +63,7 @@ The position of the badge can be changed using the `data-pos` data attribute. If
 
 <p align="center">
 
-  <img height="100" src="https://user-images.githubusercontent.com/60890281/124374107-06790b80-dccb-11eb-8f8a-1b813ec2d32c.png" alt="Material Bread logo">
+  <img height="90" src="https://user-images.githubusercontent.com/60890281/124374107-06790b80-dccb-11eb-8f8a-1b813ec2d32c.png" alt="Material Bread logo">
 
 </p>
 
@@ -93,7 +93,7 @@ Any color css-supported color name works as well as RGB values. If this attribut
 ```
 <p align="center">
 
-  <img height="100" src="https://user-images.githubusercontent.com/60890281/124374109-0c6eec80-dccb-11eb-851e-de0c83bb2fe2.png" alt="Material Bread logo">
+  <img height="90" src="https://user-images.githubusercontent.com/60890281/124374109-0c6eec80-dccb-11eb-851e-de0c83bb2fe2.png" alt="Material Bread logo">
 
 </p>
 
