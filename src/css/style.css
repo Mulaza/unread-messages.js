@@ -14,18 +14,19 @@
     justify-content: center;
     align-items: center;
     background-color: #fd3995;
-    color: white;
+    color: rgb(0, 0, 0);
 
     box-shadow: white 0px 0px 0px 2px;
 
+    
 
     font-size: 85%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 999px;
-    min-width: 20px;
-    min-height: 10px;
-    padding: 3px 5px;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 1px 1px;
     position: absolute;
     z-index: 1;
     animation-name: pop;

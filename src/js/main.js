@@ -10,6 +10,12 @@
         let color = item.getAttribute('data-color');
         let click_state = item.getAttribute('data-select-hide');
 
+
+
+        console.log(circ.clientHeight, circ.clientWidth);
+
+
+
         const offsetValue = "-10px";
 
         // Position
@@ -48,9 +54,6 @@
                 circ.style.right = offsetValue;
                 break;
         }
-
-
-
 
 
         if (!['top', 'top-right', 'top-left', 'bottom', 'bottom-right', 'bottom-left', null].includes(position)) {

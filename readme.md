@@ -71,14 +71,14 @@ The position of the badge can be changed using the `data-pos` data attribute. If
 #### Supported Positions 
 
 
-| Position      | Tags          | 
+| Position      | Tags         | 
 | ------------- |:-------------|
-| Top           | `top`         |
-| Top Right     | `top-right`   |
-| Top Left      | `top-left`    |
-| Bottom        | `bottom`      |
-| Bottom Right  | `bottom-right`|
-| Bottom Left   | `bottom-left` |
+| Top           | top          |
+| Top Right     | top-right    |
+| Top Left      | top-left     |
+| Bottom        | bottom       |
+| Bottom Right  | bottom-right |
+| Bottom Left   | bottom-left  |
 
 
 
