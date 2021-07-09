@@ -45,7 +45,7 @@ To initiate the, library two things are required, first a class of `notification
 </p>
 
 
-To fit the values with a reasonable size any value above 999 is dispalyed in a short-hand form. The displayed numbers shorthand follows the following convention
+To fit the values with a reasonable size any value above 999 is displayed in a short-hand form. The displayed numbers shorthand follows the following convention
 * Any count `1000` and over like  `1800` will be formated as `1.8k`
 
 
@@ -104,8 +104,9 @@ You can decide how you want the badge to persist after mouse clicks by using the
 
 ```html
 <div class="notification-container" data-val="5" data-select-hide="false">
-      <div> Item of your choosing</div>
+    <i class="fas fa-bell" style="font-size: 45px;"></i>
   </div>
 ```
+You will find that after setting the `data-select-hide` attribute to `false`, you will no longer be able to dismiss the displayed tag with a mouse click.
 
 
