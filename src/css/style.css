@@ -14,24 +14,20 @@
     justify-content: center;
     align-items: center;
     background-color: #fd3995;
-    color: rgb(0, 0, 0);
-
+    color: white;
     box-shadow: white 0px 0px 0px 2px;
-
-    
-
     font-size: 85%;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 999px;
     min-width: 15px;
     min-height: 15px;
-    padding: 1px 1px;
+    padding: 3px 6px;
     position: absolute;
     z-index: 1;
     animation-name: pop;
-    animation-duration: 0.5s;
-    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-duration: 0.6s;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
     animation-fill-mode: forwards;
 }
 
@@ -45,8 +41,6 @@
 .notification-circle::selection{
     background: none;   
 }
-
-
 
 
 

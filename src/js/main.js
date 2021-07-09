@@ -1,6 +1,14 @@
 
+
+
+
+
+
+
+
 (function () {
     Array.from(document.getElementsByClassName('notification-container')).forEach((item) => {
+
 
         let circ = document.createElement('div');
         circ.classList.add("notification-circle");
@@ -9,10 +17,6 @@
         let position = item.getAttribute('data-pos');
         let color = item.getAttribute('data-color');
         let click_state = item.getAttribute('data-select-hide');
-
-
-
-        console.log(circ.clientHeight, circ.clientWidth);
 
 
 
@@ -70,9 +74,9 @@
 
         // Data
         if (value >= 1000 && value < 100000) {
-            circ.innerHTML = `${(value / 1000).toFixed(2)}K`;
+            circ.innerHTML = `+${(value / 1000).toFixed(1)}K`;
         } else if (value >= 100000) {
-            circ.innerHTML = `${(value / 1000000).toFixed(2)}M`;
+            circ.innerHTML = `+${(value / 1000000).toFixed(1)}M`;
         }
         else {
             circ.innerHTML = value; // check if is a number
